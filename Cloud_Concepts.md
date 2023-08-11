@@ -1,11 +1,4 @@
-# CLF-C01 Note
-
-## AWS Certified Cloud Practitioner Exam
-
-- Domain 1: Cloud Concepts
-- Domain 2: Security and Compliance
-- Domain 3: Technology
-- Domain 4: Billing and Pricing
+# Cloud Concepts
 
 ## Cloud Computing
 
@@ -150,4 +143,3 @@ Cloud computing service provider that offers `flexibility, reliability and affor
 - Domain name registrar is a "phone book" for the internet
 
 Route 53 (Domain registration) + EC2 AMI (WordPress template on a virtual server)
-
