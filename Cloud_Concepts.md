@@ -1,5 +1,10 @@
 # Cloud Concepts
 
+- 26% of the exam
+- Define the AWS Cloud an its value proposition
+- Identify aspects of AWS Cloud economics
+- List the different cloud architecture design principles
+
 ## Cloud Computing
 
 ### Cloud Computing Concept
