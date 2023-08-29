@@ -210,3 +210,151 @@
 - Deploy new data warehouse in minutes
 - Secure
 - Data encryption compliant with many common requirements
+
+## Network and Content Delivery
+
+### Amazon Virtual Private Cloud (VPC)
+
+![pic4](./pic_resource/pic4.jpg)
+
+- Logically isolated section in the cloud to provision resources
+- Flexible and secure, allowing you to control almost every aspect of your virtual network
+- VPC automatically provisioned at AWS account signup
+
+### CloudFront
+
+- CloudFront is a global content delivery network (CDN)
+- Based on location of the user, origin of the website/application, location of the content delivery server
+- Integrates with many AWS services to provide optimal performance and security
+- Makes loading website/apps for end users faster using edge locations to cache files and resources
+
+![pic5](./pic_resource/pic5.jpg)
+
+- Scalable
+- No minimum commitment or fixed-term contract
+- Only pay for content delivered using the service 
+
+### Route 53
+
+- Highly scalable cloud Domain Name System (DNS)
+- Reliably and cost-effectively route end users to your internet applications
+- Connect user requests to infrastructure running on AWS
+- Route users to infrastructure outside of AWS as DNS service
+- Integrates with other AWS services
+- Simple to set up, fast, secure, and cost-effective
+- You're charged only for what you use, without any upfront fees or minimum usage commitments
+- Automatically scales to handle large query volumes
+
+#### Basic functions
+
+- Domain registration
+- Domain Name System
+- Health check of web apps
+- Auto naming for service discovery
+- Create websites/apps with high availability
+
+## Management Tools
+
+### CloudFormation
+
+- Templates: recipes for resource deployment in AWS
+- Provision and deploy fully configured infrastructure
+- Free to use
+- Pay only for resources used in the templates
+- Provision multi-region, multi-tier application quickly with text file
+- Update or manage the templates (stacks) using AWS Management Console, command line, or Software Development Kit (SDK)
+- Version control available
+
+#### Infrastructure as Code
+
+Deploy IT infrastructure based on text file that specifies resources and configurations for each service being deployed.
+
+### CloudTrail
+
+- Monitoring and auditing of IT infrastructure for compliance, user activity/API usage tracking, and risk auditing
+- Log and monitor account activities and event history
+- Simplify compliance audits
+- Discover/troubleshoot security and operational issues
+- Provide visibility into user/resource activities
+- Automatically respond to security threats
+- Track actions taken through AWS Management Console, SDKs, and command-line tools
+- Review logs using CloudTrail event history
+- Deliver reports to S3 buckets or CloudWatch logs and events
+- Free review of account activities for the past 90 days
+- Set up CloudTrail to deliver copy of management events in each region to S3
+- Logging of data events has small fees
+
+### CloudWatch
+
+- Monitoring and management system for AWS infrastructure
+- Natively integrated with over 70 AWS services
+
+- Gain system-wide visibility into resource utilization, application performance, and operational health
+- Get notifications in real time on data, metrics, and events
+
+## Review
+
+### Services
+
+- Compute
+- Storage
+- Database
+- Network and content delivery
+- Management tools
+
+### Concepts
+
+- Infrastructure as code
+- Deploying on the AWS Cloud
+- Availability Zones and Regions
+
+### Compute Services
+
+- **Amazon EC2**: Virtual server
+- **AWS Elastic Beanstalk**: Automatically "grows" your application
+- **Elastic Load Balancing**: Balances incoming traffic loads
+- **AWS Lambda**: Runs serverless code (Lambda Functions)
+- **AWS Lightsail**: Preconfigured virtual servers
+
+### Storage Services
+
+- **Amazon S3**: Object storage (files)
+- **Amazon EBS**: Block storage (hard drive)
+- **AWS Snowball**: Transfers huge amounts of data (physical device)
+- **AWS StorageGateway**: Gateways to connect office to resources uploaded on the cloud
+
+### Database Services
+
+- **Amazon DynamoDB**: NoSQL (nonrelational) database
+- **Amazon RDS**: Relational database that supports six types of database engines
+- **Amazon Aurora**: Relational database running on Amazon RDS
+- **Amazon Redshift**: Data warehouse for A LOT of data
+
+### Network and Content Delivery Services
+
+- **Amazon VPC**: Private virtual network
+- **Amazon CloudFront**: Caches content to Edge Locations to load faster
+- **Amazon Route 53**: Routes domains to services and IP addresses
+
+### Management Tools
+
+- **AWS CloudFormation**: Form resources with templates
+- **AWS CloudTrail**: Tracks "trails" of action (audit logs)
+- **Amazon CloudWatch**: Watches for issues - and automatically act on triggers
+
+### Infrastructure as Code
+
+Write code to describe configurations to AWS Cloud services and AWS deploys the resources for you.
+
+### Deploying to the AWS Cloud
+
+1. AWS Management Console
+2. AWS Command-Line Interface (CLI)
+3. AWS Software Development Kit (SDK)
+
+### Availability Zones and Regions
+
+- Availability Zones (AZs): Independent data centers
+- Region: Made up of two or more AZs
+- High Availability
+  - Create resiliency, high availability, and redundancy by replicating resources across AZs and Regions
