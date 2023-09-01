@@ -24,16 +24,21 @@ Security of cloud computing infrastructures and data is a `shared responsibility
 #### AWS: Security of the Cloud
 
 - AWS is responsible for protecting the infrastructure:
-  - Physical security of `data centers` hosting the AWS Cloud
-  - Security of hardware, software, networking, and so on, that runs the cloud computing services (`physical server`)
+  - Physical Security
+  - Network Security
+  - Hypervisor Security
+  - Storage Security
+  - Compliance and Certifications
 
 #### You: Security in the Cloud
 
 - You are responsible for varying levels of security functions, depending on the AWS Cloud service used, such as:
-  - Protecting customer data and data encryption
+  - Data Protection
   - Identity and Access Management
-  - Patching operating systems of VMs
-  - Configuring firewalls
+  - Operating System and Application Security
+  - Network Configuration
+  - Security Monitoring and Logging
+  - Compliance
 
 ### Security in a Well-Architected IT Infrastructure
 
