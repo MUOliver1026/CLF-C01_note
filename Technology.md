@@ -342,6 +342,20 @@ Deploy IT infrastructure based on text file that specifies resources and configu
 - **AWS CloudTrail**: Tracks "trails" of action (audit logs)
 - **Amazon CloudWatch**: Watches for issues - and automatically act on triggers
 
+#### difference
+1. **AWS Inspector**：
+   - 功能：AWS Inspector是一项自动化安全漏洞和配置问题评估服务。它帮助用户发现EC2实例和应用程序的潜在安全漏洞，提供有关如何解决这些问题的建议。
+   - 用途：主要用于安全性评估和漏洞扫描，帮助用户提高其AWS环境的安全性。
+2. **AWS CloudTrail**：
+   - 功能：AWS CloudTrail是一项日志记录服务，用于跟踪对AWS账户的活动。它记录API调用、资源更改、授权事件等，以便用户可以审计和监视AWS环境的活动。
+   - 用途：主要用于安全审计、合规性监控和故障排除，帮助用户了解谁以及何时访问了其AWS资源。
+3. **AWS CloudWatch**：
+   - 功能：AWS CloudWatch是一项监控和管理AWS资源的服务。它允许用户收集和跟踪性能指标、设置警报并自动响应AWS环境中的事件。
+   - 用途：主要用于监控、性能优化和自动化AWS资源，帮助用户保持其环境的可用性和可靠性。
+4. **AWS Config**：
+   - 功能：AWS Config是一项配置管理服务，记录AWS资源的配置更改并维护历史记录。它允许用户查看资源配置的历史状态，分析资源关系和安全性，以及执行合规性检查。
+   - 用途：主要用于资源配置管理、合规性分析和安全审计，帮助用户确保其AWS环境符合规定的配置标准。
+
 ### Infrastructure as Code
 
 Write code to describe configurations to AWS Cloud services and AWS deploys the resources for you.
