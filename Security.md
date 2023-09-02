@@ -179,6 +179,21 @@ Secure from **external and internal threats**
 - Based on five categories: cost optimization, performance, security, fault tolerance, service limits
 - Provides action recommendations to meet best practices
 
+
+AWS Trusted Advisor是一项AWS服务，旨在帮助您优化您的AWS资源、提高性能、提高可用性、降低成本并增强安全性。它通过分析您的AWS基础架构，识别潜在的问题和最佳实践，并提供建议，以帮助您改进您的AWS环境。以下是AWS Trusted Advisor的主要作用：
+
+- 成本优化：AWS Trusted Advisor可以分析您的AWS帐户，识别未使用的或浪费的资源，以及潜在的成本优化机会。它可以建议终止未使用的EC2实例、降低或删除不需要的EBS卷等，以帮助您降低云成本。
+
+- 性能优化：该服务可以检查您的AWS资源的性能，并提供性能优化建议。例如，它可以识别CPU、内存和网络资源的使用情况，以帮助您更好地规划和配置资源。
+
+- 安全性：AWS Trusted Advisor可以扫描您的AWS环境，以识别潜在的安全风险和配置错误。它可以检查访问控制列表（ACL）、安全组、S3桶的公共访问权限等，并提供建议，以改善安全性。
+
+- 可用性：服务可以检查您的环境中的可用性配置，并提供建议，以确保高可用性。例如，它可以检查是否启用了多个可用区域、是否配置了自动备份等。
+
+- 可靠性：AWS Trusted Advisor还可以分析您的AWS资源配置，以帮助提高可靠性。它可以识别潜在的问题，如过期的SSL证书、即将到期的域名注册等。
+
+- 最佳实践：该服务提供有关AWS资源管理的最佳实践建议，以确保您的环境按照最佳方式进行配置和管理。
+
 #### Seven Core Trusted Advisor Checks
 
 1. S3 bucket permissions
